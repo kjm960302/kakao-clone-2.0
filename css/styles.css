@@ -2,6 +2,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
 @import 'status-bar.css';
 @import 'header.css';
+@import 'nav-bar.css';
+@import 'friend.css';
+
+* {
+  box-sizing: border-box; /*box안에 padding을 추가해도 box size가 바뀌지 않게해줌.*/
+}
 
 body {
   background-color: white;
@@ -13,4 +19,5 @@ body {
 
 a {
   color: inherit; /*부모 요소로부터 색깔을 받아온다는 의미*/
+  text-decoration: none;
 }
